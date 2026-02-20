@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "CodeGenMemory": {
+      "type": "local",
+      "command": [
+        "python3",
+        "/home/iot-2/.config/opencode/semantic-knowledge-graph-rag.py"
+      ]
+    },
+    // "Neo4jMemory": {
+    //   "type": "local",
+    //   "command": [
+    //     "uvx",
+    //     "mcp-neo4j-memory@latest",
+    //     "--db-url",
+    //     "neo4j://localhost:7687",
+    //     "--username",
+    //     "neo4j",
+    //     "--password",
+    //     "password"
+    //   ],
+    //   "enabled": true
+    // }
+  }
+}
